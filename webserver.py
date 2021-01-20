@@ -105,3 +105,5 @@ if __name__ == '__main__':
     # 什么数据量是用户决定的
     httpd = WebServer(host="0.0.0.0", port=8000, html="./static")
     httpd.start()  # 启动服务
+
+
